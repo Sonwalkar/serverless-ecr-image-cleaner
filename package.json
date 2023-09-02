@@ -1,0 +1,14 @@
+{
+  "name": "serverless-ecr-image-cleaner",
+  "version": "1.0.2",
+  "description": "This is a plugin for serverless framework to clean AWS ECR images form the repository.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Akshay Sonwalkar",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1450.0"
+  }
+}
