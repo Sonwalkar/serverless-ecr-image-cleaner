@@ -28,6 +28,6 @@ custom:
   numImagesToKeep: 2
 ```
 #### Custom Variables
- - `appRegion` (string) (optional) - Region of the ECR repository `(default: 'us-east-1')`
- - `repositoryName` (string) (optional) -  Repository name to delete the ECR images from the repository `(default: 'serverless-{serviceName}-{this.options.stage}')`
- - `numImagesToKeep` (integer) (optional) - Count of the images to keep the latest number of images in the repository `(default: 6)`
+ - `appRegion` (string) (optional) - Region of the ECR repository `(default: 'us-east-1')`.
+ - `repositoryName` (string) (optional) -  Repository name to delete the ECR images from the repository `(default: 'serverless-{serviceName}-{this.options.stage}')`.
+ - `numImagesToKeep` (integer) (optional) - Count of the images to keep the latest number of images in the repository `(default: 6)`.
